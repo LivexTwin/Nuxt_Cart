@@ -16,8 +16,17 @@ const { data: products } = await useFetch("http://localhost:4000/products");
 
 <style scoped>
 .product-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 }
 </style>

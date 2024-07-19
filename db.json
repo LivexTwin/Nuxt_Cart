@@ -1,5 +1,14 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "id": "1",
+      "title": "Lava Potion",
+      "price": 20,
+      "description": "Gain heat resistance for 3 minutes.",
+      "img": "/img/potion.png",
+      "quantity": 1
+    }
+  ],
   "products": [
     {
       "title": "Lava Potion",
